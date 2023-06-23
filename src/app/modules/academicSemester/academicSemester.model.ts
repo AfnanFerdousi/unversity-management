@@ -8,6 +8,8 @@ import {
   academicSemesterMonths,
   academicSemesterTitles,
 } from './academicSemester.constant';
+import ApiError from '../../../errors/ApiErrors';
+import status from 'http-status';
 
 const academicSemesterSchema = new Schema<IAcademicSemester>(
   {
@@ -41,7 +43,21 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
   }
 );
 
+// same year same semester check
+
+academicSemesterSchema.pre('save', async function (next) {
+  const isExist = await AcademicSemester.findOne({
+    title: this.title,
+    year: this.year,
+  });
+  if (isExist) {
+    throw new ApiError(status.CONFLICT, 'Semester already exist');
+  } else {
+    next();
+  }
+});
+
 export const AcademicSemester = model<IAcademicSemester, AcademicSemesterModel>(
-  'User',
+  'AcademicSemester',
   academicSemesterSchema
 );
