@@ -11,6 +11,7 @@ router.post(
   AcademicSemesterController.createSemester
 );
 router.get('/:id', AcademicSemesterController.getSingleSemester);
+router.delete('/:id', AcademicSemesterController.deleteSemester);
 router.patch(
   '/:id',
   validateRequest(AcademicSemesterValidation.updateAcademicSemesterZodSchema),

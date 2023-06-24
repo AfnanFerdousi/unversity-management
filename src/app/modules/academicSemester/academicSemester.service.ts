@@ -114,9 +114,14 @@ const updateSemester = async (
   return result;
 };
 
+const deleteSemester = async (id: string) => {
+  const result = await AcademicSemester.deleteOne({ _id: id });
+  return result;
+};
 export const AcademicSemesterService = {
   createSemester,
   getAllSemesters,
   getSingleSemester,
   updateSemester,
+  deleteSemester,
 };
