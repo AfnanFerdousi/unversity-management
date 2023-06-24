@@ -7,6 +7,8 @@ import pick from '../../../shared/pick';
 import { paginationFields } from '../../../constants/pagination';
 import { IAcademicSemester } from './academicSemester.interface';
 import { academicSemesterFilterableFields } from './academicSemester.constant';
+
+// create a semester
 const createSemester = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
     const { ...academicSemesterData } = req.body;
@@ -24,6 +26,7 @@ const createSemester = catchAsync(
   }
 );
 
+// get all semesters and  you can filter too
 const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, academicSemesterFilterableFields);
   const paginationOptions = pick(req.query, paginationFields);
@@ -39,7 +42,21 @@ const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
     meta: result.meta,
   });
 });
+
+// get single semester
+const getSingleSemester = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await AcademicSemesterService.getSingleSemester(id);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Semester fetched successfully',
+    data: result,
+  });
+});
+
 export const AcademicSemesterController = {
   createSemester,
   getAllSemesters,
+  getSingleSemester,
 };
