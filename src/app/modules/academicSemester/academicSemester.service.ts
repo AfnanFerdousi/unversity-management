@@ -3,7 +3,10 @@ import ApiError from '../../../errors/ApiErrors';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
-import { academicSemesterTitleCodeMapper } from './academicSemester.constant';
+import {
+  academicSemesterSearchableFields,
+  academicSemesterTitleCodeMapper,
+} from './academicSemester.constant';
 import {
   IAcademicSemester,
   IAcademicSemesterFilters,
@@ -29,13 +32,6 @@ const getAllSemesters = async (
 ): Promise<IGenericResponse<IAcademicSemester[]>> => {
   const { searchTerm, ...filtersData } = filters;
 
-  const academicSemesterSearchableFields = [
-    'title',
-    'code',
-    'year',
-    'startMonth',
-    'endMonth',
-  ];
   const andConditions = [];
   // filtering using searchable fields
   if (searchTerm) {
@@ -73,7 +69,10 @@ const getAllSemesters = async (
   if (sortBy && sortOrder) {
     sortConditions[sortBy] = sortOrder;
   }
-  const result = await AcademicSemester.find({ $and: andConditions })
+
+  const whereCondition =
+    andConditions.length > 0 ? { $and: andConditions } : {};
+  const result = await AcademicSemester.find(whereCondition)
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);

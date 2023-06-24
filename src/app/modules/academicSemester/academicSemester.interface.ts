@@ -29,5 +29,5 @@ export type AcademicSemesterModel = Model<
 >;
 
 export type IAcademicSemesterFilters = {
-  searchTerm: string;
+  searchTerm?: string;
 };
