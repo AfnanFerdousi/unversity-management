@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\successes\\.a7d389cd52580460340b10a58695709e9c224ce6-audit.json",
+    "files": [
+        {
+            "date": 1686763814979,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\successes\\af-2023-14-06-23-success.log",
+            "hash": "0bd8f1b18c50b488e100860faf98c35e0d8f987eb5d144a9ed58516f31e8a5ee"
+        }
+    ],
+    "hashType": "sha256"
+}
