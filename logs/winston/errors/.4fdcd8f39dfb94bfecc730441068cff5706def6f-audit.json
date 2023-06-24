@@ -9,6 +9,86 @@
             "date": 1686763814987,
             "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-14-06-23",
             "hash": "2733ee2adc7fddac1ffe3fae992de67bf20132edc5e6dc1f7708024be1e0b1f5"
+        },
+        {
+            "date": 1686907158451,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-16-06-15",
+            "hash": "02dc23d565d4bc096d7b7623b71d8d6a1c67d7baf3e23eddca1023aca895ee67"
+        },
+        {
+            "date": 1686934924156,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-16-06-23",
+            "hash": "d6faf3dca2665cc476addee02b95caaaa65f31bd2e77478af6a47cbd3e1ee02e"
+        },
+        {
+            "date": 1686945932421,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-17-06-02",
+            "hash": "d3507abcd06b50888278f9bcff7badac5b9a1af253c7a2d971b324969aa8ab06"
+        },
+        {
+            "date": 1686955659551,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-17-06-04",
+            "hash": "0697e2b2891948d74999ffd50631f62f9eb87196f8712b0303e3fa29a33431dc"
+        },
+        {
+            "date": 1687010806137,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-17-06-20",
+            "hash": "7400aaab107806bbb6a208e107014f9699269c4fc0aab744015c0933308ae0c8"
+        },
+        {
+            "date": 1687028125253,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-18-06-00",
+            "hash": "5626e061c1aeea62083b8c57651fd76484e6315fdd01796917242542e8291edf"
+        },
+        {
+            "date": 1687029539550,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-18-06-01",
+            "hash": "165a4c823fd6454ce073c7238b3c9a56c9081d803b31809084ed3b76d1501320"
+        },
+        {
+            "date": 1687035617046,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-18-06-03",
+            "hash": "c6b7886ca22ba034f2a9543990234c9769194c97ad11f82febd1f8d461791a6a"
+        },
+        {
+            "date": 1687240461661,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-20-06-11",
+            "hash": "b04b67c67d14a29e130e5d70fce0e29d150e0486a0ef7aa133c84387f7588b70"
+        },
+        {
+            "date": 1687240840270,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-20-06-12",
+            "hash": "3909ebda68714aac2080aff5f674c52ed2f27d847ebc88c5ccf46aa36b111389"
+        },
+        {
+            "date": 1687551645621,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-24-06-02",
+            "hash": "ba0eb56dbd366f7c25726fb4d1e39aab4ec09d921b28d23859778ae13666eea3"
+        },
+        {
+            "date": 1687554408948,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-24-06-03",
+            "hash": "b95429f8092cf5728fc9e922ccbbf92413f5f87c6b0b92baadb0b64a8662540a"
+        },
+        {
+            "date": 1687557608118,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-24-06-04",
+            "hash": "433d1e6af2ee87ec8dbca3fecee2e221dffcc3c23a54fcc3e310d4cd7438ddb1"
+        },
+        {
+            "date": 1687598942561,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-24-06-15",
+            "hash": "9f9730e02141cef677340e28dabd24788e26f95bfac372fae9259dbea1bac4e4"
+        },
+        {
+            "date": 1687613390403,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-24-06-19",
+            "hash": "0f98bde2407cb7569cc7df96f6dfeda47aeab06a5b1d8966ac32d0e55646bb92"
+        },
+        {
+            "date": 1687615202510,
+            "name": "D:\\RED LAPTOP\\Next Level Course PH\\student-management-system\\logs\\winston\\errors\\error.log.2023-24-06-20",
+            "hash": "1f7a112f94b357f0a93ec5fa0f2806b3af91b93d7e9e0f1175428dc5e9b1288b"
         }
     ],
     "hashType": "sha256"

@@ -1,0 +1,10 @@
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 3000,
+  level: 'error',
+  label: 'UM',
+  timestamp: '2023-06-20T05:54:24.974Z'
+}
